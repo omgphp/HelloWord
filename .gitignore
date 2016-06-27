@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>简单的纯css导航</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .nav{
+            width:980px;
+            height: 60px;
+            margin: 20px auto;
+            background-color: #212121;
+        }
+        .nav li{
+            float: left;
+            line-height: 60px;
+            list-style: none;
+        }
+        .nav li a:link,a:visited{
+            padding: 0  24px !important;
+            color: #dadada;
+            text-decoration: none;
+            float: left;
+        }
+        .active{
+            background-color: #333;
+        }
+        .nav li a:hover{
+
+            background-color:red;
+        }
+    </style>
+</head>
+<body>
+<div class="nav">
+    <ul>
+        <li class="active"><a href="#">首页</a></li>
+        <li><a href="#">视频</a></li>
+        <li><a href="#">课程</a></li>
+        <li><a href="#">作品</a></li>
+        <li><a href="#">社区</a></li>
+        <li><a href="#">论坛</a></li>
+    </ul>
+</div>
+</body>
+</html>
